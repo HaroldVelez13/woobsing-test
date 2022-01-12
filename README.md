@@ -23,10 +23,6 @@ npm run i
 npm run dev
 ```
 
-By doing this the project will start with 10 base users, one administrative and one guest, these last two are roles with associated permissions
-admin: haroldvelez13@hotmail.com
-Guest: guest@hotmail.com
-password for both "password"
 
 By doing this the project will start with 10 base users, one administrative and one invited, these last two are roles with associated permissions
 admin: haroldvelez13@hotmail.com
