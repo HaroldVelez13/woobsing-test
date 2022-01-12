@@ -6,6 +6,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+# Woobsing Test
+
+## Description
+This project was created with laravel sail, and uses the jetstream and laravel-permission libraries
+
+## initialize
+to initialize it correctly use the commands:
+
+```bash
+# Initialize the database with test data
+artisan migrate: refresh --seed
+# install npm dependencies
+npm run i
+# build npm
+npm run dev
+```
+
+By doing this the project will start with 10 base users, one administrative and one guest, these last two are roles with associated permissions
+admin: haroldvelez13@hotmail.com
+Guest: guest@hotmail.com
+password for both "password"
+
+By doing this the project will start with 10 base users, one administrative and one invited, these last two are roles with associated permissions
+admin: haroldvelez13@hotmail.com
+invited: invitado@hotmail.com
+password for both "password"
 
 ## About Laravel
 
